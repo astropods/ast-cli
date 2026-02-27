@@ -1,0 +1,31 @@
+name: Bug report or feature request
+description: Report a bug or suggest a feature
+title: "[Bug/Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an issue!
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      description: What kind of issue is this?
+      options:
+        - Bug
+        - Feature request
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's the problem? / How to reproduce?
+      description: For bugs, include steps to reproduce. For features, describe what you'd like.
+      placeholder: |
+        **Bug:** Steps to reproduce
+        1. ...
+        2. ...
+
+        **Feature:** Describe the feature and use case
+    validations:
+      required: true
