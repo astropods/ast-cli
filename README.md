@@ -1,6 +1,6 @@
-# Astro AI CLI
+# Astropods CLI
 
-This is a placeholder for the future Astro AI CLI.
+This is a placeholder for the future Astropods CLI.
 
 - **CLI [docs](https://docs.astropods.ai)**
 - **Read our [blog](https://blog.astropods.ai)**
